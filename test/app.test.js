@@ -19,5 +19,11 @@ describe('Testing the Cube Functions', function() {
         expect(c3.getVolume()).to.equal(343);
         done();
     });
+
+    it('4. Create new Cube', function(done) {
+        let c1 = new Cube(2);
+        expect(c1.getSideLength()).to.equal(2);
+        done();
+    });
     
 });
