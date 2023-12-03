@@ -4,16 +4,7 @@ const expect = require('chai').expect;
 describe('Testing the Cube Functions', function() {
     it('1. The side length of the Cube', function(done) {
         let c1 = new Cube(2);
-        // recuperer les datas via les form/input
-        //mail = toto@gmail.com mdp = 123r
-        /*
-        data {
-            mail: "toto@gmail.com",
-            mdp: "123r"
-        }
-        */
         expect(c1.getSideLength()).to.equal(2);
-        // expect(getDataUser()).to.equal(data2)
         done();
     });
     
